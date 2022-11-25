@@ -1,0 +1,2255 @@
+
+/*HOME*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: War;
+  src: url(WarRemains-Regular.ttf);
+}
+
+body{
+  background: black;
+  background-image: url("ImgHome/noise effect.png");
+ 
+}
+
+.principal{
+  background-image: url("ImgHome/IDF.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/*Menu*/
+
+.Cabecalho{
+  min-width: 100px;
+  max-width: 1020px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  padding-top: 30px;
+}
+
+.Menu {
+  display: flex;
+  gap: 100px;
+
+}
+
+.Menu a{
+  color: white;
+  font-size: 35px;
+  font-family: War;
+}
+
+@media (max-width: 980px){
+  .Cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .Menu {
+    
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Menu a {
+    font-size: 25px;
+  
+  }
+}
+
+
+
+
+
+/*Banner*/
+
+.banner{
+  margin: auto;
+  min-width: 100px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+}
+
+.bannertour{
+ width: 100% 
+}
+
+
+
+
+
+
+/*PubliDoces*/
+
+.PubliDoces{
+  display: flex;
+  justify-content: center;
+  padding-top: 170px;
+  background-image: url("ImgHome/telhado.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.Rect{
+  background: #242424;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+    background-image: url("ImgHome/noise effect.png");
+}
+
+.IconesDoces{
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-top: 21px;
+}
+
+.TextoDoces{
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.Capa{
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.Capa img{
+  width: 200px;
+}
+
+.IconText{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 980px){
+  .PubliDoces{
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    background-image: url("ImgHome/telhado.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 600px;
+}
+
+  .Rect{
+    background: #242424;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+  .Capa{
+    padding: 10px;
+    padding-left: 25px;
+  
+}
+  .Capa img{
+    width: 150px;
+}
+
+  .IconesDoces{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 21px;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 0 20px;
+    
+}
+
+  .IconesDoces img{
+    width: 30px;
+  }
+
+  .TextoDoces{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+}
+
+@media (max-width: 600px){
+  .PubliDoces{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    background-image: url("ImgHome/telhado.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 300px;
+}
+
+  .Rect{
+    background: #242424;
+    width: 200px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    gap: 10px;
+  
+}
+
+  .Capa{
+    padding: 10px;
+    padding-top: 20px;
+  
+  
+}
+  .Capa img{
+    width: 160px;
+}
+
+  .IconesDoces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 21px;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 0 30px;
+    
+}
+
+  .IconesDoces img{
+    width: 30px;
+  }
+
+  .TextoDoces{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+  .IconText{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+}
+
+
+
+
+
+/*Video*/
+
+.Video{
+  min-width: 50px;
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url("ImgHome/oranges.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 2000px;
+  
+}
+
+.Video iframe{
+  width: 40%;
+  height: 50%;
+}
+
+@media (max-width: 1062px){
+  .Video{
+    height: 500px;
+  }
+
+  .Video iframe{
+    width: 80%;
+    height: 70%;
+}
+  
+}
+
+@media (max-width: 350px){
+  .Video{
+    height: 300px;
+  }
+
+  .Video iframe{
+    width: 90%;
+    height: 65%;
+    border: solid #242424;
+}
+  
+}
+
+
+
+
+
+/*Tour*/
+
+.Tour{
+  min-width: 50px;
+  max-width: 1920px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 500px;
+}
+
+.Texto{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.ImageTour img{
+  width: 700px;
+}
+
+#VSnov{
+ 
+  padding-top: 60px;
+}
+
+.TituloTour{
+  display: flex;
+  justify-content: center;
+  font-family: War;
+  font-size: 65px;
+  color: white;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.botaoing{
+  display: flex;
+  width: 95px;
+  height: 50px;
+  background: #242424; 
+  border: 3px solid #FAFAFA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoesESP{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botdrop{
+  display: flex;
+  width: 150px;
+  height: 50px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+
+
+.TexBot{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  
+}
+
+@media (max-width: 1250px){
+  .Tour{
+    gap: 30px;
+    height: 450px;
+
+}
+  .Texto{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+
+.ImageTour img{
+  width: 400px;
+}
+
+#VSnov{
+  padding-top: 60px;
+}
+
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.botaoing{
+  display: flex;
+  width: 90px;
+  height: 45px;
+  background: #242424; 
+  border: 3px solid #FAFAFA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoesESP {
+  display: flex;
+  justify-content: center;
+}
+
+.botdrop {
+  display: flex;
+  width: 130px;
+  height: 55px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+}
+
+
+
+@media (max-width: 790px){
+  
+.Tour{
+  min-width: 50px;
+  max-width: 1920px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 320px;
+}
+
+  .Texto{
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+
+.ImageTour img{
+  width: 300px;
+}
+
+#VSnov{
+  padding-top: 60px;
+}
+
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.botaoing{
+  width: 85px;
+  height: 40px;
+  background: #242424; 
+  border: 3px solid #FAFAFA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+
+.botoesESP {
+  display: flex;
+  justify-content: center;
+}
+
+
+.botdrop {
+  display: flex;
+  width: 95px;
+  height: 55px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+}
+
+@media (max-width: 670px){
+  .Tour{
+  min-width: 50px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+}
+
+@media (max-width: 350px){
+    .TexBot{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+  .Tour{
+  min-width: 50px;
+  max-width: 1920px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 500px;
+}
+
+  .Texto{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+
+.ImageTour img{
+  width: 270px;
+}
+
+#VSnov{
+  padding-top: 60px;
+}
+
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.botaoing{
+  width: 80px;
+  height: 35px;
+  background: #242424; 
+  border: 3px solid #FAFAFA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 350;
+}
+
+.botoesESP{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botdrop {
+  display: flex;
+  width: 95px;
+  height: 55px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+}
+
+
+
+/*Merch*/
+
+.TituloMerch{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: War;
+  font-size: 65px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.Merch{
+  max-width: 1300px;
+  min-width: 280px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  max-height: 1500px;
+}
+
+.flip-card {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+
+/*Instagram*/
+
+.tituloinsta {
+  display: flex;
+  justify-content: center; 
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 100px;
+  padding: 20px
+}
+
+.botoesInsta {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 15px
+}
+
+.botinsta{
+  display: flex;
+  width: 180px;
+  height: 50px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+
+
+
+
+@media (max-width: 790px){
+  
+.botoesInsta {
+  display: flex;
+  justify-content: center;
+}
+
+
+.botinsta {
+  display: flex;
+  width: 165px;
+  height: 55px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+}
+
+
+@media (max-width: 350px){
+
+
+.botoesInsta{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botinsta {
+  display: flex;
+  width: 165px;
+  height: 55px; 
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+}
+
+
+
+
+/*Footer*/
+
+.rodape{
+  background: #242424;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 200px;
+    background-image: url("ImgHome/noise effect.png");
+}
+
+.Newsletter{
+  width: 400px;
+  margin: 20px;
+}
+
+#divBusca{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#txtBusca{
+  border: solid #d78422;
+  width: 70%;
+  height: 30px;
+  background: rgba(215, 132, 34, 0.14);
+  color: white;
+  font-size: 17px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#btnBusca{
+  background: #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-weight: 600;
+  border: solid #d78422;
+  width: 30%;
+
+}
+
+.Redes{
+  width: 180px;
+  margin: 20px;
+  
+}
+
+.IconesR{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.IconesR img{
+  width: 30px;
+}
+
+#YoutubeSize{
+    width: 40px;
+}
+
+.Plataformas{
+  width: 250px;
+  margin: 20px;
+}
+
+.IconesP{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.IconesP img{
+  width: 35px;
+}
+
+#AppleSize{
+    width: 29px;
+}
+
+#AppleS{
+  width: 30px;
+}
+
+.DR{
+  background: #242424;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #757575;
+    background-image: url("ImgHome/noise effect.png");
+  
+}
+
+.DRP{
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+/*HOVER*/
+
+.botaoing:hover{
+  border: 3px solid #d78422;
+  color: #d78422;
+}
+
+
+.botdrop:hover{
+  border: 3px solid #FAFAFA;
+  color: #FAFAFA;
+}
+
+.botinsta:hover{
+  border: 3px solid #FAFAFA;
+  color: #FAFAFA;
+}
+
+
+#Tour:hover{
+  color: #d78422;
+}
+
+#Music:hover{
+  color: #d78422;
+}
+
+#Merch:hover{
+  color: #d78422;
+}
+
+#News:hover{
+  color: #d78422;
+}
+
+#Home:hover{
+  transform: rotate(30deg);
+}
+
+#Instahover:hover{
+  opacity: 0.5;
+}
+
+#Facehover:hover{
+  opacity: 0.5;
+}
+
+#Spotifyhover:hover{
+  opacity: 0.5;
+}
+
+#Dezzerhover:hover{
+  opacity: 0.5;
+}
+
+#SChover:hover{
+  opacity: 0.5;
+}
+
+#BChover:hover{
+  opacity: 0.5;
+}
+
+#AppleSize:hover{
+  opacity: 0.5;
+}
+
+#Youtubehover:hover{
+  opacity: 0.5;
+}
+
+#btnBusca:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+.Instahover:hover{
+  opacity: 0.5;
+}
+
+.Facehover:hover{
+  opacity: 0.5;
+}
+
+.Spotifyhover:hover{
+  opacity: 0.5;
+}
+
+.Dezzerhover:hover{
+  opacity: 0.5;
+}
+
+.SChover:hover{
+  opacity: 0.5;
+}
+
+.BChover:hover{
+  opacity: 0.5;
+}
+
+.Applehover:hover{
+  opacity: 0.5;
+}
+
+#Youtubehover:hover{
+  opacity: 0.5;
+}
+
+
+/*---------------------------- fim home*/ 
+
+
+
+
+
+/*----------------------------------- NEWS ----------------------------------*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: War;
+  src: url(WarRemains-Regular.ttf);
+}
+
+
+.principal-News{
+  background: black;
+  background-image: url("ImgNews/IdeogramaCorte.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  
+}
+
+.noise-effect{
+  background-image: url("ImgHome/noise\ effect.png")
+}
+
+
+.bannerMerch{
+  width: 100%;
+}
+
+.Paginas{
+  margin: auto;
+  min-width: 100px;
+  max-width: 1200px;
+}
+
+
+
+
+/*Paginas*/
+
+.Allpags{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 30px;
+}
+
+.Pg1{
+  background: #d78422;
+  border: solid #d78422 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg2{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg3{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg4{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pg4 img{
+  width: 12px;
+  padding-top: 4px;
+}
+
+.Paginas a {
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+/*Noticias*/
+
+
+.Noticias{
+  max-width: 1600px;
+  min-width: 300px;
+  margin: auto;
+  max-height: 6000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+
+.Noticias div{
+  display: flex;
+  height: 230px;
+  max-width: 590px;
+  min-width: 300px;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png");
+}
+
+.textonews{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mais{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+.datanews {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.titulonews{
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.autor{
+  font-weight: 300;
+  font-size: 10px; 
+  color: #d78422;
+  padding-left: 10px;
+}
+
+.textocompleto{
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px;
+}
+
+
+@media (max-width: 750px){
+  .Noticias{
+  max-width: 1600px;
+  min-width: 100px;
+  margin: auto;
+  max-height: 10000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+    
+}
+
+.fotonews{
+  width: 300px;
+}
+
+.Noticias div{
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  width: 200px;
+
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-image: url("ImgHome/noise effect.png");
+}
+
+
+.textonews{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.datanews {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.titulonews{
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.autor{
+  font-weight: 300;
+  font-size: 10px; 
+  color: #d78422;
+  padding-left: 10px;
+}
+
+.textocompleto{
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px;
+}
+}
+
+
+
+/*----------------------------------- FIM NEWS ----------------------------------*/
+
+/*----------------------------------- TOUR ----------------------------------*/
+
+
+/*Datas*/
+
+.principal-Tour{
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-image: url("ImgTour/LUA FUNDO.png");
+  
+}
+
+@media (max-width: 570px){
+
+.PAGdatas{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+  
+.PAGdatas-titulo{
+align-self: center;
+}
+
+.black{
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 800px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+   
+}
+  
+.grey{
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 800px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.botoestour2 {
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+ 
+}
+
+
+.textostour{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+} 
+
+}
+
+
+
+.PAGdatas{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  padding-top: 53px;
+  justify-self: center;
+  margin: auto;
+  max-width: 800px;
+  flex-wrap: wrap;
+
+}
+
+.PAGdatas-titulo{
+font-family: 'IBM Plex Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 84px;
+margin-bottom: 30px;
+margin-top: 30px;
+margin-left: 20px;
+}
+
+.black{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #1C1C1C;
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-height: 181px;
+  max-height: 350px;
+  top: 868px;
+  background-image: url("ImgHome/noise effect.png");
+  min-width: 320px;
+  max-width: 800px;
+}
+
+.textostour{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.show{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 42px;
+
+}
+
+.local{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  
+
+}
+
+.botoestour2 {
+  align-self: center;
+  padding-right: 50px;
+}
+
+.botaoingtour2{
+  display: flex;
+  width: 100px;
+  height: 50px;
+  background: #242424; 
+  border: 3px solid #FAFAFA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.botaoingtour2:hover{
+  border: 3px solid #d78422;
+  color: #d78422;
+}
+
+.grey{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2C2C2C;
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-height: 181px;
+  max-height: 350px;
+  top: 868px;
+  background-image: url("ImgHome/noise effect.png");
+  min-width: 320px;
+  max-width: 800px;
+}
+
+.PAGdatastour{
+  align-self: start;
+}
+
+
+
+
+@media (max-width: 380px){
+
+.PAGdatas{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+  
+.PAGdatas-titulo{
+align-self: center;
+}
+
+.black{
+  flex-direction: column;
+  width: 150px;
+  height: 300px;
+  align-self: center;
+
+}
+  
+.grey{
+  flex-direction: column;
+  width: 150px;
+  height: 300px;
+  align-self: center;
+
+}
+
+.botoestour2 {
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+ 
+}
+
+
+.textostour{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+} 
+  
+.PAGdatastour{
+  align-self: center;
+}
+
+.show{
+  text-align: center;
+}
+}
+
+/*----------------------------------- FIM TOUR----------------------------------*/
+
+/*----------------------------------- MERCH ----------------------------------*/
+
+@media (max-width: 980px){
+  .Cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .Menu {
+    
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Menu a {
+    font-size: 25px;
+  
+  }
+}
+
+.banner{
+  margin: auto;
+  min-width: 100px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerMerch{
+  width: 100%;
+}
+
+.Paginas{
+  margin: auto;
+  min-width: 100px;
+  max-width: 1200px;
+}
+
+.Allpags{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 30px;
+}
+
+.Pg1{
+  background: #d78422;
+  border: solid #d78422 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg2{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg3{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;  
+}
+
+.Pg4{
+  background: #000000;
+  border: solid white 1px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pg4 img{
+  width: 12px;
+  padding-top: 4px;
+}
+
+.Paginas a {
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.Produtos1{
+  max-width: 1300px;
+  min-width: 280px;
+  margin: auto;
+  max-height: 6000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  
+}
+
+.Produtos1 div{
+  background: #242424;
+  height: 310px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: solid 2px transparent;
+  background-image: url("ImgHome/noise effect.png");
+}
+
+
+.tshirt img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.tshirt:hover{
+  border: solid #d78422 2px;
+}
+ 
+.bladev img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.bladev:hover{
+  border: solid #d78422 2px;
+}
+
+
+.moletom img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.moletom:hover{
+  border: solid #d78422 2px;
+}
+
+
+.bucket img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.bucket:hover{
+  border: solid #d78422 2px;
+}
+
+.poster img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.poster:hover{
+  border: solid #d78422 2px;
+}
+
+
+.docesv img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.docesv:hover{
+  border: solid #d78422 2px;
+}
+
+
+.moletom2 img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.moletom2:hover{
+  border: solid #d78422 2px;
+}
+
+
+.frutosev img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.frutosev:hover{
+  border: solid #d78422 2px;
+}
+
+
+.garrafa img{
+  height: 226px;
+  width: 198px;
+  margin: 10px;
+}
+
+.garrafa:hover{
+  border: solid #d78422 2px;
+}
+
+
+
+
+
+
+
+.rodape{
+  background: #242424;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 200px;
+    background-image: url("ImgHome/noise effect.png");
+}
+
+.Newsletter{
+  width: 400px;
+  margin: 20px;
+}
+
+#divBusca{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#txtBusca{
+  border: solid #d78422;
+  width: 70%;
+  height: 30px;
+  background: rgba(215, 132, 34, 0.14);
+  color: white;
+  font-size: 17px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#btnBusca{
+  background: #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-weight: 600;
+  border: solid #d78422;
+  width: 30%;
+
+}
+
+.Redes{
+  width: 180px;
+  margin: 20px;
+  
+}
+
+.IconesR{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.IconesR img{
+  width: 30px;
+}
+
+#YoutubeSize{
+    width: 40px;
+}
+
+
+.Plataformas{
+  width: 250px;
+  margin: 20px;
+}
+
+
+.IconesP{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.IconesP img{
+  width: 35px;
+}
+
+#AppleSize{
+    width: 29px;
+}
+
+
+
+.DR{
+  background: #242424;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #757575;
+    background-image: url("ImgHome/noise effect.png");
+}
+
+
+.DRP{
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+
+
+#Tour:hover{
+  color: #d78422;
+}
+
+#Music:hover{
+  color: #d78422;
+}
+
+#Merch:hover{
+  color: #d78422;
+}
+
+#News:hover{
+  color: #d78422;
+}
+
+#Home:hover{
+  transform: rotate(30deg);
+}
+
+.Pg2:hover{
+  background: #d78422;
+  border: solid #d78422 1px;
+}
+
+
+.Pg3:hover{
+  background: #d78422;
+  border: solid #d78422 1px;
+}
+
+.Pg4:hover{
+  background: #d78422;
+  border: solid #d78422 1px;
+}
+
+#Instahover:hover{
+  opacity: 0.5;
+}
+
+#Facehover:hover{
+  opacity: 0.5;
+}
+
+#Spotifyhover:hover{
+  opacity: 0.5;
+}
+
+#Dezzerhover:hover{
+  opacity: 0.5;
+}
+
+#SChover:hover{
+  opacity: 0.5;
+}
+
+#BChover:hover{
+  opacity: 0.5;
+}
+
+#AppleSize:hover{
+  opacity: 0.5;
+}
+
+#Youtubehover:hover{
+  opacity: 0.5;
+}
+
+#btnBusca:hover{
+  opacity: 0.5;
+}
+
+.principal-Merch{
+  background-image: url("ImgMerch/Redemoinho.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  
+}
+
+/*----------------------------------- FIM MERCH----------------------------------*/
+
+/*----------------------------------- MUSIC ----------------------------------*/
+
+
+.Titulo{
+  min-width: 100px;
+  max-width: 1020px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: War;
+  font-size: 52px;
+  color: white;
+  padding-top: 42px;
+  gap: 25px;
+}
+
+.SoundIMG{
+  width: 100px;
+}
+
+
+/* media queries principal */
+
+
+@media (max-width: 1050px) {
+
+.DocesMUS{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  padding-top: 40px;
+  row-gap: 50px;
+  
+}
+  
+.paragrafo{
+  align-self: center;
+  }
+  
+  
+}
+
+@media (max-width:620px){
+  
+.capa-doces{
+  width: 300px;
+  height: auto;
+
+}
+
+.botoesMUS{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-self: center;
+
+}
+  
+.discografia{
+  font-size: 40px;
+}
+
+.SoundIMG{
+  width: 40px;
+}
+}
+
+@media (max-width:470px){
+  
+.icones{
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}  
+
+.capa-doces{
+  width: 289px;
+  height: auto;
+
+}
+
+.discografia{
+  font-size: 30px;
+}
+
+.SoundIMG{
+  width: 60px;
+}
+ 
+.DocesMUS{
+  color: white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 50px;
+  column-gap: 60px;
+  flex-wrap: wrap;
+}
+
+  
+}
+
+@media (max-width:320px){
+ 
+.discografia{
+  font-size: 30px;
+}
+
+.SoundIMG{
+  width: 20px;
+}
+
+
+}
+
+  
+/* fim media queries */
+
+
+.DocesMUS{
+  color: white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 42px;
+  column-gap: 60px;
+  flex-wrap: wrap;
+}
+
+.capa-doces{
+max-width: 485px;
+min-width: 200px;
+height: auto;
+
+}
+
+.textosPAGMUSIC{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+
+
+.botoesMUS{
+  display: flex;
+  column-gap: 50px;
+
+}
+  
+
+
+.botaodoces{
+  display: flex;
+  width: 261.38px;
+  height: 65.64px;
+  border: 3px solid transparent;
+  box-shadow: 3px 6px #d78422;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #242424;
+  background-image: url("ImgHome/noise effect.png")
+}
+
+.botaodoces:hover{
+  border: 3px solid #FAFAFA;
+  color: #FAFAFA;
+}
+
+.icones{
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.albuns{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  padding-top: 120px;
+ 
+}
+
+
+.principal-Music{
+  background-image: url("ImgMusic/luaestrelafundo.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  
+
+}
+
+
+.ALBUM1 {
+  position: relative;
+  width: 100%;
+  
+}
+
+.fotodoalbum {
+  opacity: 1;
+  display: block;
+  width: 289px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.efeito {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  text-align: center;
+
+
+}
+
+.ALBUM1:hover .fotodoalbum {
+  opacity: 0.3;
+}
+
+.ALBUM1:hover .efeito {
+  opacity: 1;
+}
+
+.tituloalbum{
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  padding-left: 0px;
+}
+
+.iconeshover{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconeshov{
+  margin: 15px;
+  align-items: center;
+  
+}
+
+.Apple-icone{
+  width: 50px;
+}
+
+.Apple-icone:hover{
+  opacity: 0.5;
+}
+
+.Spotify-icone:hover{
+  opacity: 0.5;
+}
+
+.Youtube-Icone:hover{
+  opacity: 0.5;
+}
+
+.Deezer-icone:hover{
+  opacity: 0.5;
+}
+
+.SC-icone:hover{
+  opacity: 0.5;
+}
+
+.BC-Icone:hover{
+  opacity: 0.5;
+}
+
+/*----------------------------------- FIM MUSIC----------------------------------*/
+
+
